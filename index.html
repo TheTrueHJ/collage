@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link rel="stylesheet" href = "style.css">
+</head>
+
+<body>
+<center>
+    <h1>Collage Web App</h1>
+    <hr>
+    <h4>Click 'Allow' when the window popup appears. After you've spoken a command, </h4>
+    <br>
+    <h3> Say 'Selfie' to take a selfie and to make a collage.</h3>
+    <br>
+    <button class = "btn btn-info" onclick = "save();"> Start </button>
+    <br>
+    <h4> Press the 'Start' button </h4>
+    <br>
+    <label> Your Camera: </label>
+    <br>
+    <div id = "cam-out"></div>
+    <label>Selfies/Collage: </label>
+    <div id = "collage"> 
+        <div id = "r1" style= "width: 100px;"> <img src = "breathtaking landscapes19.jpg"> </div>
+        <br>
+        <div id = "r2" style= "width: 100px;"> <img src = "OIP.jpg"> </div>
+        <br>
+        <div id = "r3" style= "width: 100px;"> <img src = "R.jpg"> </div>
+    </div>
+</center>
+<div id = "dv">
+Developed by Hajin
+</div>
+</body>
+
+</html>
